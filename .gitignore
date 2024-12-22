@@ -1,0 +1,28 @@
+
+---
+
+### **3. Example `.gitignore`**
+```gitignore
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+.env/
+.venv/
+
+# Ignore data and large files
+data/
+*.csv
+*.xlsx
+*.h5
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.Trash*/
+
+# Ignore environment settings
+.idea/
+.vscode/
+.DS_Store
